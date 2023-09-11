@@ -10,7 +10,7 @@ export default {
       marks: [],
     });
     const setMarkStyle = (ele, event) => {
-      ele.src = "../../public/marker.png";
+      ele.src = "./marker.png";
       const centerX = event.offsetX - ele.width/2;
       const centerY = event.offsetY - ele.height;
       ele.style.left = centerX + 'px';
