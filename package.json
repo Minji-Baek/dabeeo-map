@@ -1,5 +1,6 @@
 {
   "name": "map-project",
+  "homepage": "https://minji-baek.github.io/dabeeo-map/",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.0.0",
