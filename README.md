@@ -20,7 +20,11 @@
 ### 4. reset 버튼 클릭 시 모든 마커 삭제
 - reset 버튼 클릭 시 마커 class의 element만 select하여 삭제 해줌
 
-<img src="/1.png">
+<img src="./public/1.png">
+
+#### git code clone 시
+- npm install
+- npm run dev
 
 
  
